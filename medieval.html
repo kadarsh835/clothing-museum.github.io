@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="css/material-kit.min.css">
 	<link rel="stylesheet" href="css/vertical-nav.css">
 	<link rel="stylesheet" href="css/demo.css">
+	<link rel="stylesheet" type="text/css" href="css/cntl.css">
+	<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
 	
     
 
@@ -79,15 +81,71 @@
             </div>
         </div>
     </div>
-    <div class="main main-raised">
+    <div class="main main-raised"><div class="jquery-script-clear"></div>
 	<div class="container">
 	<div class="row">
 		<div class="col-md-12">
-			
-			<iframe src="timelines/medieval.html" frameborder="0" width="100%" height="4000" style="overflow:hidden"></iframe>
+			<br> <br>
+			<div class="cntl"> <span class="cntl-bar cntl-center"> <span class="cntl-bar-fill"></span> </span>
+  <div class="cntl-states">
+    <div class="cntl-state">
+      <div class="cntl-content">
+        <h2>Cotton gin</h2>
+        <p>A cotton gin is a machine that quickly and easily separates cotton fibers from their seeds, enabling much greater productivity than manual cotton separation. The fibers are then processed into various cotton goods such as linens, while any undamaged cotton
+is used largely for textiles like clothing. Seeds may be used to grow more cotton or to
+produce cottonseed oil</p>
+      </div>
+      <div class="cntl-image img-thumbnail"><img src="img/gin.jpeg"></div>
+      <div class="cntl-icon cntl-center">500 AD</div>
+    </div>
+    <div class="cntl-state">
+      <div class="cntl-content">
+        <h2>Spinning Wheel</h2>
+        <p>A spinning wheel is a device for spinning thread or yarn from natural or synthetic fibers. Spinning wheels were first used in India, between 500 and 1000 C.E<br><br>
+
+Spinning machinery, such as the spinning jenny and spinning frame, displaced the spinning wheel during the Industrial Revolution.<br><br>
+The Spinning Wheel replaced the earlier method of hand spinning with a spindle.  The spun yarn was then wound onto the spindle by moving it so as to form a right angle with the spindle</p>
+      </div>
+      <div class="cntl-image"><img src="img/spinning.jpeg"></div>
+      <div class="cntl-icon cntl-center">500-1000 AD</div>
+    </div>
+    <div class="cntl-state">
+      <div class="cntl-content">
+        <h2>Woodblock Printing</h2>
+        <p> Woodblock printing is a technique for printing text, images or patterns used widely throughout East Asia and originating in China in antiquity as a method of printing on textile sand later paper. As a method of printing on cloth, the earliest surviving examples from China.</p>
+      </div>
+      <div class="cntl-image"><img src="img/wood.jpeg"></div>
+      <div class="cntl-icon cntl-center">600 AD</div>
+    </div>
+    <div class="cntl-state">
+      <div class="cntl-content">
+        <h2>Purl Sitches</h2>
+        <p>the purl stitches look like a wavy horizontal line across the fabric.   Patterns and pictures can be created in knitted fabrics by using knit and purl stitches as "pixels";
+    <br><br> <blockquote>In the knit stitch on the left, the next (red) loop passes through the previous (yellow) loop from below, whereas in the purl stitch (right), the next stitch enters from above. Thus, a knit stitch on one side of the fabric appears as a purl stitch on the other, and vice versa.</blockquote>
+	<br><br><blockquote>Two courses of red yarn illustrating two basic fabric types. The lower red course is knit into the white row below it and is itself knit on the next row; this produces 'stockinette' stitch. The upper red course is purled into the row below and then is knit, consistent with 'garter' stitch.</blockquote>
+	  <br><br><blockquote>A dropped stitch, or missed stitch, is a common error that creates an extra loop to be fixed.</blockquote>
+</p>
+      </div>
+      <div class="cntl-image img-thumbnail" style="height:250px; overflow:hidden;"><img src="img/pix1.png"></div><br>
+	  <div class="cntl-image img-thumbnail" style="height:250px;overflow:hidden;"><img src="img/pix2.png"></div><br>
+	  <div class="cntl-image img-thumbnail" style="height:250px;overflow:hidden;"><img src="img/pix3.jpeg"></div><br>
+      <div class="cntl-icon cntl-center">1562</div>
+    </div>
+	    <div class="cntl-state">
+      <div class="cntl-content">
+        <h2>Stocking Frame -> Nitting Machine</h2>
+        <p> A stocking frame was a mechanical knitting machine used in the textiles industry. It was invented by William Lee of Calverton near Nottingham in 1589. Its use, known traditionally as framework knitting, was the first major stage in the mechanization of the textile industry, and played an important part in the early history of the Industrial Revolution. It was adapted to knit cotton and to do ribbing, and by 1800 had been adapted as a lace making machine.
+</p>
+      </div>
+      <div class="cntl-image img-thumbnail"><img src="img/knitting.jpeg"></div>
+      <div class="cntl-icon cntl-center">1589</div>
+  </div>
+      <div class="end">END</div>
+</div>
+
 			
 			</div>
-</div></div>
+</div></div><br><br>
     </div>
     <footer class="footer">
         <div class="container">
@@ -117,7 +175,7 @@
     <script src="js/core/jquery.min.js"></script>
     <script src="js/core/popper.min.js"></script>
     <script src="js/bootstrap-material-design.min.js"></script>
-  
+    <script type="text/javascript" src="js/jquery.cntl.js"></script>
     <script src="js/material-kit.min.js"></script>
 	
     <!-- Place this tag in your head or just before your close body tag. -->
@@ -128,7 +186,19 @@
             materialKitDemo.presentationAnimations();
         });
     </script>
-
+	 </script>
+   
+	<script type="text/javascript">
+	$(document).ready(function(e){
+		$('.cntl').cntl({
+			revealbefore: 300,
+			anim_class: 'cntl-animate',
+			onreveal: function(e){
+				console.log(e);
+			}
+		});
+	});
+</script>
     <script>
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-46172202-12']);
@@ -170,7 +240,6 @@
         } catch (err) {
             console.log('Facebook Track Error:', err);
         }
-    </script>
    
 </body>
 
