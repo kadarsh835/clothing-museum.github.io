@@ -26,6 +26,7 @@ blockquote {
   margin: 1.5em 10px;
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
+  color:black;
 }
 body p{
     font-family: 'Roboto';
@@ -106,7 +107,7 @@ body p{
 .cntl-content {
 	width: 40%;
 	padding: 2%;
-	background:   #f5f5f5;
+	background:   #902974;
 	border-radius: 8px;
 	border-bottom: solid 3px #009ABB;
 	float:left;
@@ -115,6 +116,7 @@ body p{
 	margin-left:-40%;
 	border-radius: 4px;
     box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
+	color:white;
 }
 
 .cntl-state:nth-child(2n+2) .cntl-content::after{
