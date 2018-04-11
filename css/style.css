@@ -69,3 +69,43 @@ div{
     line-height: 1.56;
     padding-top: 10px;
 }
+
+.card:hover {
+		-ms-transform: scale(1.1,1.1); /* IE 9 */
+    -webkit-transform: scale(1.1,1.1); /* Safari */
+    transform: scale(1.1,1.1);
+		-webkit-box-shadow: 10px 10px 91px 0px rgba(193,79,82,1);
+-moz-box-shadow: 10px 10px 91px 0px rgba(193,79,82,1);
+box-shadow: 10px 10px 91px 0px rgba(193,79,82,1);
+		z-index:9999;
+		border-right:1px solid transparent;
+		border-bottom:1px solid transparent;
+		cursor:pointer;
+		background-color:#fff;
+	}
+	
+.box1{
+	z-index:5;
+	position: relative;
+	border-radius: 5px;
+	background-color:#ae5597;
+	margin:5px;
+	color:white;
+}
+.row{
+	margin-top:40px;
+}
+
+.box1:hover{
+	-ms-transform: scale(.3,.3); /* IE 9 */
+    -webkit-transform: scale(1.1,1.1); /* Safari */
+    transform: scale(1.03,1.03);
+		-webkit-box-shadow: 2px 2px 2px 2px rgba(193,79,82,1);
+-moz-box-shadow: 2px 2px 2px 2px rgba(193,79,82,1);
+box-shadow: 2px 2px 2px 2px #b7b7b7;
+		z-index:10;
+		border-right:1px solid transparent;
+		border-bottom:1px solid transparent;
+		cursor:pointer;
+		background-color:#ae5597;
+}
