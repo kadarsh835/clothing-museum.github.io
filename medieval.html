@@ -19,6 +19,7 @@
 	<link rel="stylesheet" href="css/vertical-nav.css">
 	<link rel="stylesheet" href="css/demo.css">
 	<link rel="stylesheet" type="text/css" href="css/cntl.css">
+	<link rel="stylesheet" type="text/css" href="css/button.css">
 	
 	
     
@@ -138,12 +139,14 @@ The Spinning Wheel replaced the earlier method of hand spinning with a spindle. 
       <div class="cntl-image img-thumbnail"><img src="img/knitting.jpeg"></div>
       <div class="cntl-icon cntl-center">1589</div>
   </div>
-      <div class="end">END</div>
-</div>
+      
+	</div>
 
 			
 			</div>
-</div></div><br><br>
+</div><div class="col-md-10" style="margin-top:20px;"><a href="early.html" class="flipper-container">
+	<div id="id" class="flipper">
+    <div class="front-face" data-icon="&#x27a3;"><span>Next</span></div></div></a></div></div>
     </div></div>
     <footer class="footer">
         <div class="container">
@@ -184,8 +187,6 @@ The Spinning Wheel replaced the earlier method of hand spinning with a spindle. 
             materialKitDemo.presentationAnimations();
         });
     </script>
-	
-   
 	<script type="text/javascript">
 	$(document).ready(function(e){
 		$('.cntl').cntl({
@@ -197,48 +198,7 @@ The Spinning Wheel replaced the earlier method of hand spinning with a spindle. 
 		});
 	});
 </script>
-    <script>
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-46172202-12']);
-        _gaq.push(['_trackPageview']);
-
-        (function() {
-            var ga = document.createElement('script');
-            ga.type = 'text/javascript';
-            ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(ga, s);
-        })();
-
-        // Facebook Pixel Code Don't Delete
-        ! function(f, b, e, v, n, t, s) {
-            if (f.fbq) return;
-            n = f.fbq = function() {
-                n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n;
-            n.push = n;
-            n.loaded = !0;
-            n.version = '2.0';
-            n.queue = [];
-            t = b.createElement(e);
-            t.async = !0;
-            t.src = v;
-            s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window,
-            document, 'script', '//connect.facebook.net/en_US/fbevents.js');
-
-        try {
-            fbq('init', '111649226022273');
-            fbq('track', "PageView");
-
-        } catch (err) {
-            console.log('Facebook Track Error:', err);
-        }
-   </script>
+   
 </body>
 
 </html>
