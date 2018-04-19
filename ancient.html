@@ -18,7 +18,6 @@
     <link rel="stylesheet" href="css/material-kit.min.css">
 	<link rel="stylesheet" href="css/vertical-nav.css">
 	<link rel="stylesheet" href="css/demo.css">
-	<link rel="stylesheet" type="text/css" href="css/cntl.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	
     
@@ -81,21 +80,22 @@
         </div>
     </div>
     <div class="main main-raised">
-	<div class="container"><br><br>
+	<div class="container">
 	<div class="row">
-		<div class="col-md-6 box1">
-			<h2>When did it all begin?</h2>
-			<p>A 2011 study on lice suggested that it was only 170,000 years ago when it all began. Researchers found that heda lice and lice that live in our clothes appeared at around this time. The idea is that, once we started wearing clothes, some lice started living in them and evolved into a separate species.</p>
-		</div>
-		<div class="col-md-4" style="overflow:hidden;"><img src="img/an1.jpg" style="max-height:100%; width: 100%;" class="img-responsive "></div>
-	</div>
-	<div class="row">
+		<!--<div class="col-md-10"><img style="margin:25px; width:500px;" src="img/an3.jpg"></div>-->
+		<div class="col-md-10"><br><h2><b>When did it all begin?</b></h2>
+				<p><img style="float:right; margin-left:25px; width:400px;" src="img/an1.jpg">A 2011 study on lice suggested that it was only 170,000 years ago when it all began. Researchers found that heda lice and lice that live in our clothes appeared at around this time. The idea is that, once we started wearing clothes, some lice started living in them and evolved into a separate species.</p>
+			</div>
+			<div class="col-md-10"><h2><b>Why Clothing?</b></h2>
+				<p><img style="float:left; margin-right:25px; width:200px;" src="img/an2.jpeg">At this time , our own species, homo sapiens already walked the Earth in Africa. They no longer had much body hair, which had helped more archaic hominins keep warm at night and offered some protection from the heat of the sun. It is possible we started wearing clothes to compensate for the losss of fur.</p>
+			</div>
+			<div class="col-md-10"><h2><b>A brief timeline...</b></h2>
+				<p><img style="float:left; margin-right:25px; width:400px;" src="img/an4.jpg">First evidence of a sewing needle is found dated back to 28,000 BC.<br><br>We have proofs indicating cultivation of flax ranging  around 8,000 BC.<br><br>Around 5000-6000 BC , we have enough evidence indicating that woven textiles were being used to wrap the dead, while production of linen fabric had started in Ancient Egypt.<br><br>A major event in this series of developments was the cultivation of cotton by the inhabitants of indus valley civilisation around 2500 BC.</p>
+			</div>
+			<div class="col-md-10"><h2 style="text-align:center; font-weight:400"><\END\></h2></div>
 		
-		<div class="col-md-6 box1" style="height:auto;">
-			<h2>Why Clothing?</h2>
-			<p>At this time , our own species, homo sapiens already walked the Earth in Africa. They no longer had much body hair, which had helped more archaic hominins keep warm at night and offered some protection from the heat of the sun. It is possible we started wearing clothes to compensate for the losss of fur.</p>
-		</div>
-		<div class="col-md-4" style="overflow:hidden;"><img src="img/an2.jpeg" style="max-height:350px; width: 100%;" class="img-responsive "></div>
+	
+		
 </div></div>
     </div>
     <footer class="footer">
@@ -138,59 +138,7 @@
             materialKitDemo.presentationAnimations();
         });
     </script>
-	<script type="text/javascript">
-	$(document).ready(function(e){
-		$('.cntl').cntl({
-			revealbefore: 300,
-			anim_class: 'cntl-animate',
-			onreveal: function(e){
-				console.log(e);
-			}
-		});
-	});
-</script>
-    <script>
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-46172202-12']);
-        _gaq.push(['_trackPageview']);
-
-        (function() {
-            var ga = document.createElement('script');
-            ga.type = 'text/javascript';
-            ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(ga, s);
-        })();
-
-        // Facebook Pixel Code Don't Delete
-        ! function(f, b, e, v, n, t, s) {
-            if (f.fbq) return;
-            n = f.fbq = function() {
-                n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n;
-            n.push = n;
-            n.loaded = !0;
-            n.version = '2.0';
-            n.queue = [];
-            t = b.createElement(e);
-            t.async = !0;
-            t.src = v;
-            s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window,
-            document, 'script', '//connect.facebook.net/en_US/fbevents.js');
-
-        try {
-            fbq('init', '111649226022273');
-            fbq('track', "PageView");
-
-        } catch (err) {
-            console.log('Facebook Track Error:', err);
-        }
-    </script>
+	
    
 </body>
 
