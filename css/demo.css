@@ -6,6 +6,11 @@
     overflow-x: hidden;
 }
 
+
+.modal{
+	top:-12%;
+}
+
 .tim-white-buttons {
     background-color: #777777;
 }
