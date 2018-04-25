@@ -3,6 +3,17 @@ ul{
 font-weight:300;font-size:17px;
 
 }
+.mimg:after{
+	content:'';
+    background:url('../img/main.jpg');
+    width:100%;
+	height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    opacity:0.4;
+}
+
 b{color: #ab4747;}
 .card {
     position: relative;
@@ -14,8 +25,9 @@ b{color: #ab4747;}
     box-sizing: border-box;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
-    border-radius: 2px;
+    border-radius: 7px;
     background-clip: padding-box;
+	z-index:10;
 }
 
 .card .card-image {
@@ -82,7 +94,7 @@ div{
     transform: scale(1.1,1.1);
 		-webkit-box-shadow: 10px 10px 91px 0px rgba(193,79,82,1);
 -moz-box-shadow: 10px 10px 91px 0px rgba(193,79,82,1);
-box-shadow: 10px 10px 91px 0px rgba(193,79,82,1);
+box-shadow: 10px 10px 91px 0px white;
 		z-index:9999;
 		border-right:1px solid transparent;
 		border-bottom:1px solid transparent;
