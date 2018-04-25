@@ -146,11 +146,64 @@
     </div>
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div id="exampleModal" class="modal fade" role="dialog">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+				<h4 class="modal-title text-center" >OUR TEAM</h4>
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					
+				</div>
+				<div class="modal-body">
+					<img id="myImg" style="width:100%;" src="img/group-1.png">
+					<div class="table-responsive">
+						<link rel="stylesheet" type="text/css" href="modal_overflow.css">
+						<table class="table table-hover table-bordered table-responsive">
+							<h2 class="text-center" style="color:#610B0B;">GROUP LEADER:ABHINAV KHANNA</h2>
+							<h2 class="text-center">DEPUTY LEADER:DIVYANSHU BAINS</h2>
+							<thead>
+								<tr>
+									<th><h3>Team Name</th>
+									<th><h3>Members</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td><h4>Web Development Team</td>
+									<td>Dilip Sharma,Adarsh Kumar</td>
+								</tr>
+								<tr>
+									<td><h4>Movie Making Team</td>
+									<td>Hersh Dhillon,Harshit Mishra</td>
+								</tr>
+								<tr>
+									<td><h4>Poster Designing Team</td>
+									<td>Gudi Manoj,G.Ramakrishna</td>
+								</tr>
+								<tr>
+									<td><h4>Collage Making Team</td>
+									<td>Abhineet Pandey,Akash Rawat,Akansha Singh,Ankit Kumar</td>
+								</tr>
+								<tr>
+									<td><h4>Content Writing Team</td>
+									<td>Deepak Pant, Abhishek Yadav, Amritpal Singh, Deepak Mahto, Aman Kumar, Gyan Prakash, Jagdeep, Anmol Punia</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<div class="modal fade" id="feed" tabindex="-1" role="dialog" aria-labelledby="feed" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h4 class="modal-title" id="exampleModalLabel">Our Team</h4>
+        <h4 class="modal-title" id="feed">Feedback</h4>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -170,6 +223,11 @@
                 <li>
                     <a style="cursor:pointer" data-toggle="modal" data-target="#exampleModal">
                         Our Teams
+                    </a>
+                </li>
+				<li>
+                    <a style="cursor:pointer" data-toggle="modal" data-target="#feed">
+                        Feedback
                     </a>
                 </li>
                 <li>
