@@ -10,7 +10,9 @@
 .modal{
 	top:-12%;
 }
-
+p{
+	text-align:justify;
+}
 .tim-white-buttons {
     background-color: #777777;
 }
